@@ -11,7 +11,7 @@ transform = transforms.Compose([
 ])
 
 # 创建数据集实例
-dataset = KTH.KTHDataset(root_dir='path/to/KTH',  # 数据集的根目录
+dataset = KTH.KTHDataset(root_dir='~/ConvLSTM/dataset',  # 数据集的根目录
                      transform=transform, 
                      clip_len=16)
 
